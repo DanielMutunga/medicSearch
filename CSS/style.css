@@ -608,16 +608,11 @@
 }
 .footer .left{
     height: 100%;
-<<<<<<< HEAD
     width: 40%;
-=======
-    width: 15%;
->>>>>>> 32e07b6f8823f19b0a48aaf857f4577abd3adf42
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* align-items: center; */
-    /* background-color: aqua; */
+    
 }
 .left a{
     line-height: 1.5;
