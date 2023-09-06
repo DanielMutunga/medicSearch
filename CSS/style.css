@@ -37,6 +37,7 @@
     align-items: center;
     justify-content: center;
     background-color: white;
+    box-shadow: 0 0 5px white;
 }
 .navlinks .links{
     height: 100%;
