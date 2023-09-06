@@ -1,0 +1,697 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.sectionone{
+    height: 100vh;
+    width: 100%;
+}
+.sectionone .navigation{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: blue;
+}
+.navigation .mainsection{
+    height: 100%;
+    width: 80%;
+}
+.navigation .navlinks{
+    height: 30%;
+    width: 100%;
+    color: blue;
+    font-weight: bold;
+}
+.banner{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    background-image: url(../Images/pexels-tara-winstead-7722657.jpg);
+    background-position: bottom;
+    background-size: cover;
+}
+.sectiontwo{
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    background-color: white;
+}
+.sectiontwo h1{
+    color: blue;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+.sectiontwo .intro{
+    color: black;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.sectiontwo p{
+    text-align: center;
+    margin-bottom: 10px;
+    font-family: monospace;
+    font-size: 18px;
+}
+.sectiontwo button{
+    border: solid 2px blue;
+    padding: 10px 10px;
+    cursor: pointer;
+    border-radius: 15px;
+    background-color: transparent;
+}
+/* End of section Two */
+
+/* Start of section Three */
+.sectionthree{
+    height: 120vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #FAF7F7;
+    position: relative;
+}
+.sectionthree .form{
+    height: 200px;
+    width: 550px;
+    padding: 20px;
+    background: linear-gradient(90deg, rgb(10, 10, 206), rgb(243, 5, 243)
+    );
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px gray;
+}
+.form label{
+    color: white;
+    font-weight: 700;
+    margin-right: 10px;
+}
+.toprated{
+    height: 35%;
+    width: 80%;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.toprated .img1{
+    height: 100%;
+    width:24%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 15px;
+}
+.toprated .img2{
+    height: 100%;
+    width: 24%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 15px;
+}
+.toprated .img3{
+    height: 100%;
+    width: 24%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 15px;
+}
+.toprated .img4{
+    height: 100%;
+    width: 24%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 15px;
+}
+.toprated img{
+    height: 200px;
+    width: 250px;
+    margin-bottom: 10px;
+}
+.sectionthree h1{
+    color: blue;
+    font-size: 32px;
+    margin-bottom: 20px;
+    position: absolute;
+    top: 5%;
+}
+.sectionthree h2{
+    color: red;
+    position: absolute;
+    top: 10%;
+}
+.sectionthree .Location{
+    color: black;
+    position: absolute;
+    top: 14%;
+}
+.sectionthree input{
+    margin-bottom: 15px;
+    height: 20px;
+    width: 350px;
+}
+.sectionthree .last{
+    border: solid 2px blue;
+    padding: 10px 10px;
+    cursor: pointer;
+    border-radius: 25px;
+    color: blue;
+    background-color: transparent;
+    position: absolute;
+    bottom: 7%;
+}
+.sectionthree button{
+    border: solid 2px white;
+    padding: 7px 30px;
+    cursor: pointer;
+    border-radius: 15px;
+    color: white;
+    background-color: transparent;
+}
+.sectionthree span{
+    color: blue;
+    font-size: 14px;
+    font-weight: 600;
+}
+.sectionthree a{
+    text-decoration: none;
+    padding: 10px 15px;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+    margin-top: 10px;
+    font-weight: 600;
+}
+/* End Of section three */
+
+/* Start Of section Four */
+.sectionfour{
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: ghostwhite;
+    position: relative;
+}
+.therapist{
+    height: 47%;
+    width: 80%;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.therapist .one{
+    height: 100%;
+    width:24%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 15px;
+}
+.therapist .two{
+    height: 100%;
+    width:24%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 15px;
+}
+.therapist .three{
+    height: 100%;
+    width:24%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 15px;
+}
+.therapist .four{
+    height: 100%;
+    width:24%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 15px;
+}
+.sectionfour h1{
+    color: blue;
+    font-size: 32px;
+    margin-bottom: 20px;
+    position: absolute;
+    top: 8%;
+}
+.sectionfour h2{
+    color: red;
+    position: absolute;
+    top: 17%;
+}
+.sectionfour .th{
+    color: black;
+    position: absolute;
+    top: 23%;
+}
+
+.sectionfour img{
+    height: 200px;
+    width: 250px;
+    margin-bottom: 10px;
+}
+.sectionfour button{
+    border: solid 2px blue;
+    padding: 10px 10px;
+    cursor: pointer;
+    border-radius: 25px;
+    color: blue;
+    background-color: transparent;
+    position: absolute;
+    bottom: 13%;
+}
+.sectionfour .articles{
+    position: absolute;
+    bottom: 7%;
+    font-size: 18px;
+}
+.articles span{
+    cursor: pointer;
+    color: blue;
+    text-decoration: underline;
+}
+.therapist a{
+    text-decoration: none;
+    padding: 10px 15px;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+    margin-top: 10px;
+    font-weight: 600;
+}
+/* End of section Four */
+
+/* Start of section Five */
+.sectionfive{
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: blueviolet; */
+}
+.sectionfive .maindiv{
+    height: 100%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* background-color: aquamarine; */
+}
+.maindiv .header{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header h1{
+    font-size: 32px;
+    color: blue;
+}
+.maindiv .textdiv{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+}
+.maindiv .left{
+    height: 100%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    /* background-color: rgb(189, 41, 41); */
+}
+.sectionfive button{
+    border: solid 2px blue;
+    padding: 10px 10px;
+    cursor: pointer;
+    border-radius: 25px;
+    color: blue;
+    background-color: transparent;
+}
+.left h1{
+    font-size: 25px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+.maindiv .right{
+    height: 80%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    text-align: center;
+    /* background-color: aliceblue; */
+}
+.right .upper{
+    height: 45%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: yellow; */
+}
+.upper .one{
+    height: 100%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 5px #333131;
+    /* background-color: white; */
+}
+.upper .two{
+    height: 100%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 5px #000;
+    /* background-color: white; */
+}
+.upper .three{
+    height: 100%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 5px #000;
+    /* background-color: white; */
+}
+.right .lower{
+    height: 45%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: yellowgreen; */
+}
+.lower .one{
+    height: 100%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 5px #000;
+    /* background-color: rgb(197, 90, 90); */
+}
+.lower .two{
+    height: 100%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 5px #000;
+    /* background-color: rgb(117, 77, 77); */
+}
+.lower .three{
+    height: 100%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 5px #000;
+    /* background-color: rgb(172, 132, 132); */
+}
+.sectionfive a{
+    line-height: 1.3;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+.sectionfive a:hover{
+    text-decoration: underline;
+}
+.sectionfive img{
+    height: 60px;
+    width: 60px;
+    margin-bottom: 15px;
+}
+/* End Of Section Five*/
+
+/* Start Of Section Six */
+.sectionsix{
+    height: 75vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(235, 235, 253);
+}
+.sectionsix .mainsection{
+    height: 100%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.sectionsix .header{
+    height: 15%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.sectionsix .button{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sectionsix .imgs{
+    height: 65%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.imgs .photo1{
+    height: 100%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 5px #333131;
+    border-bottom: 2px solid #106BF2;
+}
+.imgs .photo2{
+    height: 100%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 5px #333131;
+    border-bottom: 2px solid #106BF2;
+}
+.imgs .photo3{
+    height: 100%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 5px #333131;
+    border-bottom: 2px solid #106BF2;
+}
+.imgs img{
+    height: 300px;
+    width: 350px;
+}
+.imgs h1{
+    color: #106BF2;
+    margin-top: 10px;
+}
+.header h1{
+    font-size: 32px;
+    color: blue;
+    letter-spacing: 1px;
+}
+.header p{
+    letter-spacing: 1px;
+    font-weight: 600;
+    color: black;
+}
+.sectionsix button{
+    border: solid 2px blue;
+    padding: 10px 10px;
+    cursor: pointer;
+    border-radius: 25px;
+    color: blue;
+    background-color: transparent;
+}
+/* End Of Section Six */
+
+/* End Of Section Seven */
+.sectionseven{
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #236CC1;
+}
+.sectionseven .footer{
+    height: 100%;
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+    justify-content: space-between;
+    /* background-color: white; */
+}
+.footer .left{
+    height: 100%;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    /* background-color: aqua; */
+}
+.left a{
+    line-height: 1.5;
+    text-decoration: none;
+    color: #03FDC1;
+}
+.footer h4{
+    color: white;
+    margin-bottom: 20px;
+}
+.footer .center{
+    height: 100%;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    /* background-color: aquamarine; */
+}
+.center .icons img{
+    height: 50px;
+    margin-left: 10px;
+}
+.center .icons{
+    position: absolute;
+    top: 33%;
+}
+.center .contacts{
+    position: absolute;
+    bottom: 23%;
+}
+.footer h4{
+    position: absolute;
+    top: 22%;
+}
+.footer .right{
+    height: 100%;
+    width: 40%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* background-color: yellowgreen; */
+}
+.right .input{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    
+}
+.input h4{
+    letter-spacing: 1px;
+}
+.input input{
+    height: 25px;
+    position: absolute;
+    top: 33%;
+    border: none;
+    width: 20%;
+}
+.input button{
+    padding: 8px 15px;
+    border: solid 2px white;
+    color: white;
+    background-color: transparent;
+    border-radius: 25px;
+}
+.sectionseven .secpart{
+    height: 20%;
+    width: 100%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0564F3;
+    font-family: monospace;
+    font-size: 15px;
+    letter-spacing: 1.5px;
+    box-shadow: 0 0 5px #000;
+}
+/* End Of section Seven */
