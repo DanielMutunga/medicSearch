@@ -20,7 +20,7 @@ function locateFunction(){
     if(currentLocation === 'Nairobi' || currentLocation === 'nairobi'){
         window.location.href = 'ASSETS/Services.html'
     }else{
-        alert('We Only Offer Our Services Within Nairobi!')
+        window.location.href = 'ASSETS/error.html'
     }
 }
 document.getElementById("Services").onclick = locateFunction
