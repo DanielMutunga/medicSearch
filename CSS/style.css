@@ -1,13 +1,16 @@
 *{
     padding: 0;
     margin: 0;
+    font-family: 'Noto Serif', serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Quicksand', sans-serif;
 }
 .sectionone{
     height: 100vh;
     width: 100%;
 }
 .sectionone .navigation{
-    height: 20%;
+    height: 15%;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -37,7 +40,7 @@
     align-items: center;
     justify-content: center;
     background-color: white;
-    box-shadow: 0 0 5px white;
+    box-shadow: 0 0 5px black;
 }
 .navlinks .links{
     height: 100%;
@@ -70,16 +73,31 @@
     background-color: darkblue;
 }
 .banner{
-    height: 80%;
+    height: 85%;
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     background-color: blueviolet;
-    /* background-image: url(../Images/pexels-tara-winstead-7722657.jpg); */
-    background-position: bottom;
+   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(../Images/Background-Nice.jpg);
+    background-position: center;
     background-size: cover;
+}
+.banner p{
+    color: white;
+    font-weight: 600;
+    position: absolute;
+    bottom: 48%;
+    font-size: 18px;
+}
+.banner h3{
+    color: white;
+    position: absolute;
+    bottom: 20%;
+    font-weight: 600;
+    font-size: 28px;
+    text-align: center;
 }
 /* End Of section One */
 
@@ -92,7 +110,7 @@
     align-items: center;
     justify-content: center;
     text-align: left;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 1);
 }
 .sectiontwo h1{
     color: blue;
@@ -107,8 +125,8 @@
 .sectiontwo p{
     text-align: center;
     margin-bottom: 10px;
-    font-family: monospace;
-    font-size: 18px;
+    font-size: 20px;
+    font-weight: 500;
 }
 .sectiontwo button{
     border: solid 2px blue;
@@ -379,7 +397,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    /* background-color: blueviolet; */
 }
 .sectionfive .maindiv{
     height: 100%;
@@ -388,7 +405,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    /* background-color: aquamarine; */
+
 }
 .maindiv .header{
     height: 20%;
@@ -417,7 +434,6 @@
     flex-direction: column;
     align-items: start;
     justify-content: center;
-    /* background-color: rgb(189, 41, 41); */
 }
 .sectionfive button{
     border: solid 2px blue;
@@ -440,7 +456,6 @@
     justify-content: space-between;
     margin-bottom: 30px;
     text-align: center;
-    /* background-color: aliceblue; */
 }
 .right .upper{
     height: 45%;
@@ -449,7 +464,6 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    /* background-color: yellow; */
 }
 .upper .one{
     height: 100%;
@@ -459,7 +473,6 @@
     align-items: center;
     justify-content: center;
     box-shadow: 0 0 5px #333131;
-    /* background-color: white; */
 }
 .upper .two{
     height: 100%;
@@ -469,7 +482,6 @@
     align-items: center;
     justify-content: center;
     box-shadow: 0 0 5px #000;
-    /* background-color: white; */
 }
 .upper .three{
     height: 100%;
@@ -479,7 +491,6 @@
     align-items: center;
     justify-content: center;
     box-shadow: 0 0 5px #000;
-    /* background-color: white; */
 }
 .right .lower{
     height: 45%;
@@ -488,7 +499,6 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    /* background-color: yellowgreen; */
 }
 .lower .one{
     height: 100%;
@@ -498,7 +508,6 @@
     align-items: center;
     justify-content: center;
     box-shadow: 0 0 5px #000;
-    /* background-color: rgb(197, 90, 90); */
 }
 .lower .two{
     height: 100%;
@@ -508,7 +517,6 @@
     align-items: center;
     justify-content: center;
     box-shadow: 0 0 5px #000;
-    /* background-color: rgb(117, 77, 77); */
 }
 .lower .three{
     height: 100%;
@@ -518,7 +526,6 @@
     align-items: center;
     justify-content: center;
     box-shadow: 0 0 5px #000;
-    /* background-color: rgb(172, 132, 132); */
 }
 .sectionfive a{
     line-height: 1.3;
@@ -652,7 +659,6 @@
     align-items: center;
     position: relative;
     justify-content: space-between;
-    /* background-color: white; */
 }
 .footer .left{
     height: 100%;
@@ -679,7 +685,6 @@
     justify-content: center;
     flex-direction: column;
     color: white;
-    /* background-color: aquamarine; */
 }
 .center .icons img{
     height: 50px;
@@ -705,7 +710,6 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    /* background-color: yellowgreen; */
 }
 .right .input{
     display: flex;
