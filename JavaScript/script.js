@@ -1,9 +1,7 @@
 document.getElementById("account").onclick = function (){
     window.location.href = "ASSETS/signIn.html"
 }
-document.getElementById("services").onclick = function (){
-    window.location.href = "ASSETS/Services.html"
-}
+
 document.getElementById("seeMore").onclick = function (){
     window.location.href = "ASSETS/Therapist.html"
 }
@@ -13,4 +11,16 @@ document.getElementById("sign").onclick = function (){
 document.getElementById("blog").onclick = function (){
     window.location.href = "ASSETS/blog.html"
 }
+document.getElementById("services").onclick = function (){
+    window.location.href = "ASSETS/Services.html"
+}
 
+function locateFunction(){
+    let currentLocation = document.getElementById("location").value;
+    if(currentLocation === 'Nairobi' || currentLocation === 'nairobi'){
+        window.location.href = 'ASSETS/Services.html'
+    }else{
+        alert('We Only Offer Our Services Within Nairobi!')
+    }
+}
+document.getElementById("Services").onclick = locateFunction
