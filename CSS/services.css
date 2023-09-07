@@ -6,7 +6,7 @@
     font-family: 'Quicksand', sans-serif;
 }
 .sectionone{
-    height: 250vh;
+    height: 270vh;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -166,7 +166,7 @@
     top: -15%;
 }
 .maindiv img{
-    height: 200px;
+    height: 150px;
     margin-bottom: 5px;
 }
 .providers a{
