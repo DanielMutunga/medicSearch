@@ -617,7 +617,7 @@
     height: 250px;
     width: 300px;
 }
-.imgs h1{
+.imgs h4{
     color: #106BF2;
     margin-top: 10px;
 }
@@ -721,9 +721,6 @@
     align-items: start;
     justify-content: center;
     
-}
-.input h4{
-    /* letter-spacing: 1px; */
 }
 .input input{
     height: 25px;
