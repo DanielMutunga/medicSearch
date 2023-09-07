@@ -93,12 +93,12 @@
     /* background-color: aqua; */
 }
 .maindiv .pharmacy{
-    height: 40%;
+    height: 38%;
     width: 100%;
     position: relative;
 }
 .maindiv .lab{
-    height: 40%;
+    height: 38%;
     width: 100%;
     position: relative;
 }
@@ -152,7 +152,7 @@
     top: -15%;
 }
 .maindiv img{
-    height: 200px;
+    height: 150px;
     margin-bottom: 5px;
 }
 .providers a{
